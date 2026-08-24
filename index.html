@@ -56,6 +56,34 @@
     a {
       color: #0645ad;
     }
+
+    .video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 28px;
+}
+
+.video-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.video-card h3 {
+  margin-top: 0;
+}
+
+.video-frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.video-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
   </style>
 </head>
 
@@ -99,6 +127,61 @@
         <li>Integrable probability and algebraic combinatorics</li>
       </ul>
     </section>
+
+
+    <section id="talks">
+  <h2>Selected Lectures and Talks</h2>
+
+  <div class="video-grid">
+
+    <div class="video-card">
+      <h3>Planar Site Percolation via Tree Embeddings</h3>
+      <p>IPAM, 2024</p>
+
+      <div class="video-frame">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/S6G192p2ScU"
+          title="Planar Site Percolation via Tree Embeddings"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write;
+                 encrypted-media; gyroscope; picture-in-picture;
+                 web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p>
+        <a href="https://www.youtube.com/watch?v=S6G192p2ScU">
+          Watch on YouTube
+        </a>
+      </p>
+    </div>
+
+    <div class="video-card">
+      <h3>Asymptotics of Bounded Lecture-Hall Tableaux</h3>
+      <p>FPSAC 2024</p>
+
+      <div class="video-frame">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/h-P6aE9hzyU"
+          title="Asymptotics of Bounded Lecture-Hall Tableaux"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write;
+                 encrypted-media; gyroscope; picture-in-picture;
+                 web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p>
+        <a href="https://www.youtube.com/watch?v=h-P6aE9hzyU">
+          Watch on YouTube
+        </a>
+      </p>
+    </div>
+
+  </div>
+</section>
 
     <section id="publications">
       <h2>Publications</h2>
